@@ -1,5 +1,11 @@
 .lebar{
-    width: 30%;
+    width: 40px;
+}
+.carousel-item img{
+    height: 80vh;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
 }
 body::after{
     content: "xs";
